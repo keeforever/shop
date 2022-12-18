@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop</title>
+  <link rel="stylesheet" href="../index.css">
+  <script src="https://kit.fontawesome.com/e1383cb87a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <!-- App container -->
+  <main class="app-container">
+    <!-- Section center -->
+    <section class="section-center">
+      <!-- App head -->
+      <h1 class="text-center shop-title">Shop</h1>
+      <p class="text-center">Checkout</p>
+      <p class="text-center">Shop is a demo app - form data will not be sent</p>
+      <!-- Checkout Form -->
+      <section class="checkout-forms-wrapper">
+        <form action="" method="post" class="user-info-form">
+          <h4>Account Information</h4>
+          <input type="text" placeholder="Email" class="form-input">
+          <input type="text" placeholder="Phone Number" class="form-input">
+          <h4>Account Information</h4>
+          <input type="text" placeholder="Address" class="form-input">
+          <input type="text" placeholder="City" class="form-input">
+          <div class="doubled-form-inputs">
+          <input type="text" placeholder="State/Province" class="form-input">
+          <input type="text" placeholder="Zip/Postal code" class="form-input">
+          </div>
+          <h4>Country</h4>
+          <select name="" id="country-form-input" class="form-selection-input">
+            <option value="">India</option>
+            <option value="">Singapore</option>
+            <option value="">Indonesia</option>
+            <option value="">UK</option>
+            <option value="">Japan</option>
+            <option value="">USA</option>
+          </select>
+          <h4>Billing Address</h4>
+          <div class="billing-input-wrapper">
+            <input type="checkbox" />
+            <p>Use different billing address</p>
+          </div>
+        </form>
+
+        <form action="" class="payment-form">
+          <h4>Payment Method</h4>
+          <input type="text" placeholder="Card holder name" class="form-input">
+          <input type="text" placeholder="Card number" class="form-input">
+          <h4>Expiry</h4>
+
+          <div class="expiry-form-inputs">
+            <select name="" id="month-form-input" class="form-selection-input">
+              <option value="">Mar</option>
+              <option value="">Apr</option>
+              <option value="">May</option>
+            </select>
+            <select name="" id="year-form-input" class="form-selection-input">
+              <option value="">2000</option>
+              <option value="">2001</option>
+              <option value="">2002</option>
+            </select>
+            <input type="text" placeholder="CVV" class="form-input cvv-form-input"/>
+          </div>
+          <h4>Shipping Address</h4>
+          <div class="shipping-info-wrapper space-between">
+            <p>Anvil L/S Crew Neck - Grey</p>
+            <p>$44.30</p>
+          </div>
+          <div class="total-info-wrapper space-between">
+            <p>Total</p>
+            <p>$44.30</p>
+          </div>
+          <a href="../page/cart.html" class="btn inline-block line-btn-link checkout-btn">add to cart</a>
+        </form>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer-content-wrapper checkout-footer-content">
+        <p class="text-center footer-content">Made by Kaliyamoorthy</p>
+        <button class="ghost-btn btn btn-center">Demo Only</button>
+      </footer>
+
+      
+    </section>
+    <div class="bottom-spacer"></div>
+  </main>
+  <a href="../page/cart.html" class="btn inline-block line-btn-link checkout-bottom-btn">add to cart</a>
+</body>
+</html>

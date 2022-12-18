@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop</title>
+  <link rel="stylesheet" href="../index.css">
+  <script src="https://kit.fontawesome.com/e1383cb87a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <!-- App container -->
+  <main class="app-container">
+    <!-- Section center -->
+    <section class="section-center">
+      <!-- App head -->
+      <div class="app-head-wrapper">
+        <button class="hamburger-menu-btn">
+          <i class="fa-sharp fa-solid fa-bars fa-3x"></i>
+        </button>
+        <div class="shop-title-wrapper">
+          <h1 class="text-center shop-title">Shop</h1>
+        </div>
+      </div>
+
+      <!-- Nav Bar  -->
+      <nav class="nav-wrapper">
+        <div class="nav-links">
+          <a class="nav-link" href="../page/mens.html">Men's Outwear</a>
+          <a class="nav-link" href="../page/mens.html">Ladies Outwear</a>
+          <a class="nav-link" href="../page/mens.html">Ladies</a>
+          <a class="nav-link" href="../page/mens.html">T-Shirt</a>
+        </div>
+      </nav>
+      
+      <!-- Shop category -->
+      <section class="shop-category-wrapper">
+        <div class="category-image-wrapper">
+          <img class="img shop-category-img" src="../assets/images/mens_outerwear.jpeg" alt="mens_outerwear">
+        </div>
+          <h3 class="text-center">Men's Outwear</h3>
+      </section>
+
+      <!-- this section content will be updated by products.js -->
+      <section class="all-products-wrapper" id="mens-products-wrapper"></section>
+
+      <!-- Footer -->
+      <footer class="footer-content-wrapper">
+        <p class="text-center footer-content">Made by Kaliyamoorthy</p>
+        <button class="ghost-btn btn btn-center">Demo Only</button>
+      </footer>
+
+    </section>
+  </main>
+</body>
+<!-- for update mens products from product.js  -->
+<script type="module" src="../js/products.js" ></script>
+</html>

@@ -1,0 +1,27 @@
+/* utility classes */
+
+.section-center{
+  margin: 0 auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.splitter-line{
+  margin: 1.2rem 0 ;
+}
+
+.space-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-spacer{
+  display: block;
+  height: 4rem;
+}

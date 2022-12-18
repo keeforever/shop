@@ -1,0 +1,80 @@
+/* Checkout page */
+
+/* form title */
+.checkout-forms-wrapper h4 {
+  margin-bottom: 1rem;
+}
+
+.checkout-forms-wrapper {
+  max-width: 960px;
+  padding: 0 1rem;
+  margin: 2.5rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 14rem;
+}
+
+@media screen and (max-width: 960px) {
+  .checkout-forms-wrapper {
+    max-width: 560px;
+    grid-template-columns: 1fr;
+  }
+  .checkout-footer-content{
+    display: none;
+  }
+}
+
+.form-input {
+  margin-bottom: 1.5rem;
+  padding: 0.6rem 1rem;
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 2px solid #696969;
+}
+
+.doubled-form-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.form-selection-input {
+  height: fit-content;
+  border: none;
+  background-color: transparent;
+}
+
+#country-form-input {
+  width: 100%;
+  text-transform: uppercase;
+  margin: 0 0 1.5rem;
+}
+
+.billing-input-wrapper {
+  display: flex;
+  column-gap: 1.5rem;
+  align-items: center;
+}
+
+.billing-input-wrapper p {
+  margin: 0;
+}
+
+
+.expiry-form-inputs{
+  margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  align-items: center;
+}
+
+.cvv-form-input{
+  margin: 0;
+}
+
+.total-info-wrapper{
+  margin-bottom: 1.5rem;
+}
+

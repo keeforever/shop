@@ -1,0 +1,23 @@
+/* common button classes */
+
+.btn{
+  padding: .625rem 2.5rem;  
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: none;
+}
+
+.btn-center{
+  display: block;
+  margin: 0 auto;
+}
+
+.line-btn-link{
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.ghost-btn{
+  background-color: var(--primary-color);
+  color: var(--white);
+}
